@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Events.DAL\Events.DAL.csproj" />
+    <ProjectReference Include="..\Events.DTO\Events.DTO.csproj" />
+    <ProjectReference Include="..\Events.Model\Events.Model.csproj" />
+    <ProjectReference Include="..\Events.UTILITY\Events.UTILITY.csproj" />
+  </ItemGroup>
+
+</Project>
